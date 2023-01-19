@@ -374,9 +374,9 @@ class View {
     public function makeAboutPage() {
         $this->title = "À propos";
         $this->content = 
-            '<p>Prénom, Nom: Alix DANVY</p>
-            <p>NUMETU: 21914304</p>
-            <p>Groupe: 2A</p>
+            '<p>Prénom, Nom: --Linthora--</p>
+            <p>NUMETU: --NUMETU--</p>
+            <p>Groupe: --</p>
             <p>Projet: Egyptologists enthusiasts website</p>
             <p>Objets: des egyptologues</p>
             <p>Année: 2022-2023</p>
