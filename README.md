@@ -1,15 +1,19 @@
-DM de php et d'un site sous architecture MVCR.
+# PHP website with a MVCR architecture
 
-Tout les informations sont disponible dans la page "À propos" du site (voir fin du fichier View.php sinon)
+This project features:
+* Routing via virtual path
+* Various filters or sorts for our egyptologist list
+* Some prevention to avoid a possible SQL_injection
+* The possibility to add Images, with yet again filtering to prevent steography
 
-Le répertoire 'src' contient les sources du site.
+/src/: contains the sources of the website.
 
-Le répertoire 'skin' contient le css du site.
+/skin/: contains the CSS skins of the website.
 
-Le répertoire 'upload' contient et contiendra toutes les images ajouté aux egyptologues.
+/upload/: stores the images added for our egyptologists.
 
-Le répertoire 'image' contient une image à ne pas renommer pour ajouter une image à Champollion lors des reinit via le EgyptologistStorageMySQL.php.
+/image/: contains some images for the website.
 
-Le répertoire 'sql' contient le fichier sql qui a permis de crer la table utilisé dans cette application.
+/sql/: contains the sql file that created the table used in this project.
 
-Le répertoire 'dump' contient le dump de la base de donnée utilisé et de la table utilisé.
+/dump/: contains a dump of the database.
