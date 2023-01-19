@@ -1,0 +1,52 @@
+A little summary of the the function in some important files of the project:
+
+
+Router:
+    -main(EgyptologistStorage $egyptologistStorage): l 14
+    -POSTredirect($url, $feedback): l 111
+    -getHomeURL(): l 119
+    -getEgyptologistURL($id): l 128
+    -getEgyptologistNewURL(): l 136
+    -getListURL(): l 144
+    -getDeleteURL($id): l 153
+    -getUpdateURL($id): l 162
+    -getAboutURL(): l 171
+    -getUploadURL($id): l 180
+    -getImageURL($id): l 188
+    -getDeleteImageURL($id): l 197
+
+
+Controller:
+    -showHome(): l 36
+    -showInformation($id): l 43
+    -showAbout(): l 55
+    -showList($data=null): l 63
+    -showNewForm(): l 90
+    -saveNewEgyptologist($data): l 101
+    -showEgyptologistUpdatePage($id): l 121
+    -updateEgyptologist($id, $data): l 138
+    -newEgyptologist(): l 164
+    -changingEgyptologist($egyptologist, $id): l 182
+    -showDebugPage($variable): l 199
+    -showEgyptologistDeletionPage($id): l 207
+    -deleteEgyptologistConfirmation($id): l 222
+    -showError($error): l 239
+    -uploadEgyptologist($id, $FILE): l 249
+    -deleteEgyptologistImage($id): l 293
+
+View:
+    -render(): l 52
+    -makeHomePage(): l 59
+    -makeEgyptologistPage($id): l 73
+    -makeUnknowEgyptologistPage(): l 132
+    -makeListPage($egyptologistTab, $search, $sort): l 143
+    -makeDebugPage($variable): l 204
+    -makeNewFormPage($builder): l 214
+    -makeErrorPage($message): l 224
+    -makeEgyptologistDeletionPage($egyptologist, $id): l 235
+    -makeEgyptologistUpdatePage($egyptologist, $builder, $id): l 262
+    -addForm($actionURL, $builder, $cancelURL): l 274
+    -/// All the display<truc><Failure/Success>
+    -makeAboutPage(): l 374
+
+
